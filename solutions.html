@@ -1,0 +1,199 @@
+<title>الحلول الجاهزة | وكالة فارس الرقمية</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="كل الحلول الجاهزة من وكالة فارس الرقمية — مشكلة محددة، شراء مباشر، تسليم سريع. سعر واضح ومدة تسليم محددة لكل حل.">
+<link rel="icon" href="assets/logo/faris-icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Montserrat:wght@700;800&family=Inter:wght@400;500;600&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<body dir="rtl" lang="ar">
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand" aria-label="وكالة فارس الرقمية">
+      <img src="assets/logo/faris-logo-full.png" alt="وكالة فارس الرقمية — FARIS DIGITAL AGENCY">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="solutions.html">الحلول</a></li>
+        <li><span class="nav-soon">شراكات النمو <em>قريبًا</em></span></li>
+        <li><span class="nav-soon">الحل المخصص <em>قريبًا</em></span></li>
+        <li><a href="index.html#partners">شركاء فارس</a></li>
+        <li><span class="nav-soon">مركز المعرفة <em>قريبًا</em></span></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="#" class="btn btn-outline btn-sm" data-soon="بوابة العملاء قيد الإنشاء — قريبًا">تسجيل الدخول</a>
+      <button class="btn btn-primary btn-sm" data-sara-open>اسأل سارة</button>
+      <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">الرئيسية</a> / الحلول</p>
+    <h1>الحلول الجاهزة</h1>
+    <p>مشكلة محددة، شراء مباشر، تسليم سريع — سعر واضح ومدة تسليم محددة لكل حل من أول لحظة. هذا الكتالوج مبني مباشرة على دليل تسعير فارس 360 المعتمد.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div id="track-pills" class="pill-row" aria-label="فلترة سريعة حسب المسار"></div>
+
+    <div class="catalog-toolbar">
+      <div class="catalog-filters">
+        <div class="field search">
+          <label for="filter-search">ابحث</label>
+          <input type="text" id="filter-search" placeholder="اسم الحل أو الكلمة المفتاحية...">
+        </div>
+        <div class="field">
+          <label for="filter-track">المسار</label>
+          <select id="filter-track">
+            <option value="">كل المسارات</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filter-price">الميزانية</label>
+          <select id="filter-price">
+            <option value="">كل الأسعار</option>
+            <option value="0-200">أقل من 200 ر.س</option>
+            <option value="200-500">200 – 500 ر.س</option>
+            <option value="500-1500">500 – 1500 ر.س</option>
+            <option value="1500-3000">1500 – 3000 ر.س</option>
+            <option value="3000+">أكثر من 3000 ر.س</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filter-sort">الترتيب</label>
+          <select id="filter-sort">
+            <option value="">الافتراضي</option>
+            <option value="price-asc">السعر: من الأقل</option>
+            <option value="price-desc">السعر: من الأعلى</option>
+          </select>
+        </div>
+      </div>
+      <button id="filter-reset" class="catalog-reset">إعادة ضبط الفلاتر</button>
+    </div>
+
+    <div class="catalog-meta">
+      <span id="results-count"></span>
+    </div>
+
+    <div id="solutions-grid" class="solutions-grid"></div>
+
+    <div id="catalog-empty" class="catalog-empty empty-state">
+      <div class="icon-circle">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm10 2-4.35-4.35" stroke="#0D1F3D" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>ما فيه حل مطابق لهذي الفلاتر</h3>
+      <p>جرّب تعديل الفلاتر، أو تواصل مباشرة مع سارة ووضّح احتياجك — نساعدك نلقى المسار الأنسب حتى لو ما كان ضمن الكتالوج مباشرة.</p>
+      <button class="btn btn-primary btn-sm" data-sara-open>اسأل سارة</button>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight" style="background:var(--gray-light);">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">مو لاقي الحل المناسب؟</span>
+      <h2>لست بحاجة إلى خدمة أخرى… بل إلى الخطوة الصحيحة التالية.</h2>
+      <p>إذا احتياجك مستمر شهريًا فهذا مسار «شراكة نمو»، وإذا كان تحولًا كبيرًا فهذا مسار «حل مخصص» يبدأ بجلسة تشخيص.</p>
+    </div>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <button class="btn btn-primary" data-sara-open>ابدأ مع سارة</button>
+      <a href="index.html#contact" class="btn btn-outline">تواصل مباشر مع الفريق</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo/faris-logo-full.png" alt="وكالة فارس الرقمية">
+        <p>حلول رقمية استراتيجية — نحوّل احتياجك الرقمي إلى أثر يُرى، ونمو يُقاس.</p>
+      </div>
+      <div class="footer-col">
+        <h5>الوكالة</h5>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="solutions.html">الحلول</a></li>
+          <li><span>شراكات النمو <span class="badge badge-soon">قريبًا</span></span></li>
+          <li><span>عن الوكالة <span class="badge badge-soon">قريبًا</span></span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>الشركاء والعملاء</h5>
+        <ul>
+          <li><a href="index.html#partners">شركاء فارس</a></li>
+          <li><span>بوابة العميل <span class="badge badge-soon">قريبًا</span></span></li>
+          <li><span>مركز المعرفة <span class="badge badge-soon">قريبًا</span></span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>قانوني</h5>
+        <ul>
+          <li><span>سياسة الخصوصية <span class="badge badge-soon">قريبًا</span></span></li>
+          <li><span>الشروط والأحكام <span class="badge badge-soon">قريبًا</span></span></li>
+          <li><span>سياسة الشركاء <span class="badge badge-soon">قريبًا</span></span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-tagline">« عمق يصنع اتجاهًا »</p>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> وكالة فارس الرقمية. جميع الحقوق محفوظة.</span>
+      <span class="en">FARIS DIGITAL AGENCY — Strategic Digital Solutions</span>
+    </div>
+  </div>
+</footer>
+
+<button class="sara-fab" data-sara-open aria-label="اسأل سارة">
+  <span class="dot"></span> اسأل سارة
+</button>
+
+<div class="sara-modal-backdrop">
+  <div class="sara-modal" role="dialog" aria-modal="true" aria-label="سارة — مستشارة فارس الرقمية">
+    <button class="sara-modal-close" aria-label="إغلاق">×</button>
+    <div class="sara-modal-header">
+      <div class="sara-avatar">س</div>
+      <div>
+        <strong>سارة — مستشارة فارس الرقمية</strong><br>
+        <small>سارة تفهم… وفارس يبني.</small>
+      </div>
+    </div>
+    <div class="sara-prefill-box" hidden style="margin-bottom:14px;">
+      <span class="badge">مهتم بـ: <span data-sara-prefill></span></span>
+    </div>
+    <div class="sara-progress"><span class="done"></span><span></span><span></span></div>
+    <div class="sara-demo-step active" data-step="1">
+      <p>وش احتياجك الأساسي حاليًا؟</p>
+      <div class="sara-options" data-step="1">
+        <button data-value="مشكلة محددة">عندي مشكلة محددة أبي أحلها بسرعة</button>
+        <button data-value="قدرة تشغيلية مستمرة">أحتاج عمل مستمر شهريًا (محتوى، إدارة، دعم)</button>
+        <button data-value="تحول استراتيجي كبير">أخطط لتحول أو مشروع كبير</button>
+      </div>
+    </div>
+    <div class="sara-demo-step" data-step="2">
+      <p>تمام، وأنسب وصف لتوقيتك؟</p>
+      <div class="sara-options" data-step="2">
+        <button data-value="عاجل">أحتاجه بأقرب وقت</button>
+        <button data-value="مرن">عندي مرونة بالوقت</button>
+      </div>
+    </div>
+    <div class="sara-demo-step" data-step="3">
+      <div class="sara-result"></div>
+      <button class="sara-restart">ابدأ من جديد</button>
+    </div>
+    <p class="sara-note" style="margin-top:18px;">هذا تشخيص أولي مبسّط لتوجيهك للمسار الأنسب فقط. <a href="index.html#contact">أو تواصل مباشرة مع الفريق</a>.</p>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/services-data.js"></script>
+<script src="assets/js/solutions.js"></script>
+</body>
