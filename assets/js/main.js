@@ -58,15 +58,14 @@
     });
   });
 
-  /* ----- نموذج التواصل المباشر (مسار بديل لسارة، نموذج أولي بدون Backend) ----- */
-  var contactForm = document.querySelector("#contact-form");
-  if(contactForm){
-    contactForm.addEventListener("submit", function(e){
+  /* ----- نماذج التواصل/التشخيص (مسار بديل لسارة، نماذج أولية بدون Backend) ----- */
+  document.querySelectorAll(".contact-form").forEach(function(form){
+    form.addEventListener("submit", function(e){
       e.preventDefault();
-      showToast("تم استلام رسالتك (نموذج أولي تجريبي — لا يوجد إرسال فعلي بعد).");
-      contactForm.reset();
+      showToast("تم استلام طلبك (نموذج أولي تجريبي — لا يوجد إرسال فعلي بعد).");
+      form.reset();
     });
-  }
+  });
 
   /* =====================================================
      ودجة "سارة" — شجرة قرار مبسّطة للعرض فقط
@@ -136,7 +135,7 @@
     "تحول استراتيجي كبير": {
       way:"حل مخصص",
       text:"للتحولات الكبرى نحتاج تشخيصًا أولًا قبل اقتراح أي حل — مسار «حل مخصص» يبدأ بجلسة تشخيص.",
-      cta:"اطلب جلسة تشخيص", href:"index.html#contact"
+      cta:"اطلب جلسة تشخيص", href:"custom.html#diagnosis"
     }
   };
 
